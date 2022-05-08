@@ -5963,6 +5963,8 @@ library.AddWindow = library.CreateWindow
 library.Window = library.CreateWindow
 library.W = library.CreateWindow
 
+return library
+
 local Wait = library.subs.Wait
 
 local PepsiUi = library:CreateWindow({
@@ -5976,4 +5978,3 @@ Asset = "rbxassetid://5553946656"
 }
 })
 
-return library
